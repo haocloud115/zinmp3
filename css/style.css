@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #08070B;
+    color: #fff;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    position:absolute;
+    top:0;
+    left:0
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 0;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(234, 255, 0);
+    margin: 0 10px;
+    padding: 10px 25px;
+    position: relative;
+}
+ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #fe2727;
+    z-index: -1;
+    box-shadow: 0 0 10px #fe2727,
+                0 0 20px #fe2727,
+                0 0 40px #fe2727,
+                0 0 80px #fe2727,
+                0 0 100px #fe2727;
+    transition: 0.25s;
+}
+ul li a:hover::before{
+    width: 100%;
+}
+
+
+body {
+	background: linear-gradient(-45deg, #79a2ad, #adf1fa, #68cef0, #03e2ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+a {
+    position: static;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+  }
+  
+  a:hover {
+    background: #fe2727;
+    color: #050801;
+    box-shadow: 0 0 5px #fe2727, 0 0 25px #fe2727, 0 0 50px #fe2727, 0 0 200px #fe2727;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+  
+  a:nth-child(1) {
+    filter: hue-rotate(270deg);
+  }
+  
+  a:nth-child(2) {
+    filter: hue-rotate(110deg);
+  }
+  

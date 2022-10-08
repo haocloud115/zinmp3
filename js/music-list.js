@@ -1,4 +1,4 @@
-let allMusic = [
+﻿let allMusic = [
     {
         name: "Why?",
         artist: "Bazzi",
@@ -116,9 +116,34 @@ let allMusic = [
     {
         name: "Nghe Như Tình Yêu",
         artist: "HIEUTHUHAI (prod by Kewtiie)",
-        img: "music-19",
-        src: "music-19"
+        img: "music-20",
+        src: "music-20"
     },
+    {
+        name: "Thơ",
+        artist: "Chí ft. Low G",
+        img: "music-21",
+        src: "music-21"
+    },
+    {
+        name: "An Thần",
+        artist: "Thắng ft. Low G",
+        img: "music-22",
+        src: "music-22"
+    },
+    {
+        name: "I Like Me Better",
+        artist: "Lauv",
+        img: "music-23",
+        src: "music-23"
+    },
+    {
+        name: "Roses",
+        artist: "Finn Askew",
+        img: "music-24",
+        src: "music-24"
+    },
+
 
 
 

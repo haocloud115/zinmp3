@@ -1,80 +1,85 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zin Mp3</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="icon" href="./logo.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://haocloudmusic.netlify.app/">
-  <meta property="og:title" content="Zin Mp3 | Listen your Zin music">
-  <meta property="og:description" content="It's not my code | I just host and edit it">
-  <meta property="og:image" content="https://cdn.dribbble.com/users/120754/screenshots/2737703/discovermusic-appicon-idea1.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zin Mp3</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./asset/images/logo.png">
+    <meta name="description" content="Listen Music Which I Have Been Preparing For You">
 
+    <meta itemprop="name" content="Zin Mp3- Listen Zin Music">
+    <meta itemprop="description" content="Listen Music Which I Have Been Preparing For You">
+    <meta itemprop="image" content="https://media.discordapp.net/attachments/1021062245121282128/1026096783862009886/banner.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zin Mp3- Listen Zin Music">
+    <meta name="twitter:description" content="Listen Music Which I Have Been Preparing For You">
+    <meta name="twitter:image" content="https://media.discordapp.net/attachments/1021062245121282128/1026096783862009886/banner.jpg">
+
+    <meta property="og:site_name" content="Zin Mp3- Listen Zin Music">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zinmp3.netlify.com">
+    <meta property="og:url" content="https://zinmp3.netlify.app">
+    <meta property="og:title" content="Zin Mp3- Listen Zin Music">
+    <meta property="og:description" content="Listen Music Which I Have Been Preparing For You">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1021062245121282128/1026096783862009886/banner.jpg">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./logo.png">
+    <link rel="manifest" href="">
+    <link rel="mask-icon" href="./banner.jpg" color="#ff8908">
+    <meta name="apple-mobile-web-app-title" content="Zin Mp3">
+    <meta name="application-name" content="Zin Mp3">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PDVQMY6J7C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PDVQMY6J7C');
+    </script>
 </head>
+<body>
+     <nav>
+         <ul>
+             <!-- <li><a href="#">Home</a></li> -->
+             <li><a href="./music.html">Music</a></li>
+             <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./search.html">Search</a></li> 
+         </ul>
+     </nav>
 
-    <div class="cursor"></div>
-    <div class="wrapper">
-        <div class="top-bar">
-            <i class="material-icons">expand_more</i>
-            <span>Đang Phát</span>
-            <i class="material-icons">more_horiz</i>
-        </div>
+     <script src="./js/index.js"></script>
 
-        <div class="img-area">
-            <img src="" alt="">
-          
-        </div>
 
-        <div class="song-details">
-            <p class="name"></p>
-            <p class="artist"></p>
-        </div>
+     <div class="d-flex flex-column justify-content-center w-100 h-100">
 
-        <div class="progress-area">
-            <div class="progress-bar">
-                <audio src="" id="main-audio"></audio>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="btn-group my-5">
             </div>
-            <div class="song-timer">
-                <span class="current-time">
-                    0:00
-                </span>
-                <span class="max-duration">
-                    0:00
-                </span>
-            </div>
-        </div>
-
-        <div class="controls">
-            <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-            <i id="prev" class="material-icons" >skip_previous</i>
-            <div class="play-pause">
-                <i class="material-icons play" >play_arrow</i>
-            </div>
-            <i id="next" class="material-icons" >skip_next</i>
-            <i id="more-music" class="material-icons" >queue_music</i>
-        </div>
-
-        <div class="music-list">
-            <div class="header">
-                <div class="row">
-                    <i class="list material-icons">queue_music</i>
-                    <span>Danh Sách Nhạc</span>
-                </div>
-                <i id="close" class="material-icons">close</i>
-            </div>
-            <ul>
-              
-            </ul>
+            <a href="https://manuel.pinto.dev" class="text-decoration-none">
+            </a>
         </div>
     </div>
+    </div>
 
-    
 
-    <script src="./js/music-list.js"></script>
-    <script src="./js/script.js"></script>
- 
+    <embed src="./asset/songs/background-index.mp3" loop="true" autostart="true" width="2" height="0">
+
+
+
+
+     
+
+     
 </body>
 </html>
